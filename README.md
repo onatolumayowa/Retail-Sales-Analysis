@@ -68,7 +68,7 @@ total_sale FLOAT
 );
 ```
 
-1. Calculate the total sales for each category
+- Calculate the total sales for each category
 
 ```sql
 SELECT category, SUM(total_sale)
@@ -77,7 +77,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ```
 
-2. Find the average age of customers who purchased items from the each category
+- Find the average age of customers who purchased items from the each category
 
 ```sql
 SELECT category, ROUND(AVG(age), 2) AS avg_age
@@ -85,7 +85,7 @@ FROM retail_sales
 GROUP BY 1;
 ```
 
-3. Find all transactions where the total_sale is greater than 1000
+- Find all transactions where the total_sale is greater than 1000
 
 ```sql
 SELECT *
@@ -93,7 +93,7 @@ FROM retail_sales
 WHERE total_sale > 1000;
 ```
 
-4. Find the total number of transactions made by each gender in each category
+- Find the total number of transactions made by each gender in each category
 
 ```sql
 SELECT category, gender, COUNT(transactions_id)
@@ -102,7 +102,7 @@ GROUP BY 1, 2
 ORDER BY 3 DESC;
 ```
 
-5. Calculate the average sale for each month. Find out best selling month in each year
+- Calculate the average sale for each month. Find out best selling month in each year
 
 ```sql
 WITH CTE_Example AS
@@ -120,7 +120,7 @@ FROM CTE_Example
 WHERE rank = 1;
 ```
 
-6. Find the top 5 customers based on the highest total sales
+- Find the top 5 customers based on the highest total sales
 
 ```sql
 SELECT customer_id, SUM(total_sale)
@@ -130,7 +130,7 @@ ORDER BY 2 DESC
 LIMIT 5;
 ```
 
-7. Find the number of unique customers who purchased items from each category
+- Find the number of unique customers who purchased items from each category
 
 ```sql
 SELECT category, COUNT(DISTINCT customer_id)
@@ -138,7 +138,7 @@ FROM retail_sales
 GROUP BY 1;
 ```
 
-8. Create each shift and number of orders (Example Morning <12:00, Afternoon Between 12:00 & 17:00, Evening >17:00)
+- Create each shift and number of orders (Example Morning <12:00, Afternoon Between 12:00 & 17:00, Evening >17:00)
 
 ```sql
 WITH CTE_Example AS
