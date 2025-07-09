@@ -47,7 +47,7 @@ EDA involved exploring the retail sales data to answer key questions such as:
 
 ### Data Analysis
 
-After Data cleaning in excel, I created a database in postgreSQL named retail_db. To see full code [click here](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/PostgreSQL_retail_sales.sql)
+After Data cleaning in excel, I created a database in postgreSQL named retail_db. To view full code [click here](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/PostgreSQL_retail_sales.sql)
 
 Then I created a table retail_sales to store the data;
 
