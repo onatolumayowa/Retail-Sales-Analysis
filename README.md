@@ -4,9 +4,6 @@
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
-![Dashboard report](https://github.com/user-attachments/assets/8e2de783-9b00-4fe1-925b-92cc1a44c289)
-
-
 
 ### Data Source
 
@@ -231,9 +228,6 @@ No of orders = COUNTA('sql retail sales'[customer_id])
 5. The best selling month in year 2022 and 2023 is july and feburary respectively.
 
 
-### Recommendations
-
-After analyzing and exploring the data, I observed most sales were made in the time >17;00. To imrove the sales made for each category, 
    
 
 
