@@ -4,8 +4,6 @@
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
-![Dashboard report](https://github.com/user-attachments/assets/3e87cf83-76d8-4462-8df9-9e5a4490a7d0)
-
 
 ### Data Source
 
@@ -49,9 +47,9 @@ EDA involved exploring the retail sales data to answer key questions such as:
 
 ### Data Analysis
 
-After Data cleaning in excel, I created a database in postgreSQL named retail_db.
+After Data cleaning in excel, I created a database in postgreSQL named retail_db. To see full code [click here](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/PostgreSQL_retail_sales.sql)
 
-To create a table retail_sales to store the data;
+Then I created a table retail_sales to store the data;
 
 ```sql
 DROP TABLE IF EXISTS retail_sales;
@@ -164,7 +162,7 @@ ORDER BY COUNT(*) DESC;
 
 After EDA process, I loaded the data into Power BI and perform the following tasks;
 
-1. Created a Date table and marked it as a Date table. Also i perfomed a modelling task by creating a many to one relationship between sql retail sales and Date table, joining the sale_date column with the Date column.
+1. Created a Date table and marked it as a Date table. Also i perfomed a modelling task by forming a many to one relationship between sql retail sales table and Date table, joining the sale_date column with the Date column.
 
 ```power BI
 Date = CALENDAR(DATE(YEAR(MIN('sql retail sales'[sale_date])), 1, 1), DATE(YEAR(MAX('sql retail sales'[sale_date])), 12, 31))
@@ -218,7 +216,7 @@ No of customers = DISTINCTCOUNT('sql retail sales'[customer_id])
 No of orders = COUNTA('sql retail sales'[customer_id])
 ```
 
-4. Created a Dashboard [Dashboard view](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard%20report.png)
+4. Created a Dashboard 
 
 
 ### Results/Findings
