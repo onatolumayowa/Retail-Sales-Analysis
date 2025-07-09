@@ -159,9 +159,78 @@ ORDER BY COUNT(*) DESC;
 
 ### Data Visualization
 
-This is a power BI reports of the retail sales data.
+After EDA process, I loaded the data into Power BI and perform the following tasks;
 
-### 
+1. Created a Date table and marked it as a Date table. Also i perfomed a modelling task by creating a many to one relationship between sql retail sales and Date table, joining the sale_date column with the Date column.
+
+```power BI
+Date = CALENDAR(DATE(YEAR(MIN('sql retail sales'[sale_date])), 1, 1), DATE(YEAR(MAX('sql retail sales'[sale_date])), 12, 31))
+```
+
+2. I then added new columns from the Date table.
+
+```power BI
+Year = YEAR('Date'[Date])
+```
+
+```power BI
+Month No = MONTH('Date'[Date])
+```
+
+```power BI
+Month Name = FORMAT('Date'[Date], "mmmm")
+```
+
+```power BI
+Day = DAY('Date'[Date])
+```
+
+```power BI
+Weekday Number = WEEKDAY('Date'[Date], 2)
+```
+
+```power BI
+Weekday Name = FORMAT('Date'[Date], "DDD")
+```
+
+3. Using DAX function, I craeted key measures;
+
+```power BI
+Total sales for the category Beauty = CALCULATE(SUM('sql retail sales'[total_sale]), 'sql retail sales'[category] = "Beauty")
+```
+
+```power BI
+Total sales for the category clothing = CALCULATE(SUM('sql retail sales'[total_sale]), 'sql retail sales'[category] = "Clothing")
+```
+
+```power BI
+Total sales for the category Electronics = CALCULATE(SUM('sql retail sales'[total_sale]), 'sql retail sales'[category] = "Electronics")
+```
+
+```power BI
+No of customers = DISTINCTCOUNT('sql retail sales'[customer_id])
+```
+
+```power BI
+No of orders = COUNTA('sql retail sales'[customer_id])
+```
+
+4. Created a Dashboard 
+
+
+### Results/Findings
+
+1. Some transactions had a total sale amount greater than 1000, indicating premium purchases.
+2. The analysis identifies the top-spending customers and the most popular product categories.
+3. The category that made the most sale is "Electronics".
+4. The average age of customers who purchased items from each category are between the age of range 40-42.
+5. The best selling month in year 2022 and 2023 is july and feburary respectively.
+
+
+### Recommendations
+
+After analyzing and exploring the data, I observed most sales were made in the time >17;00. To imrove the sales made for each category, 
+   
 
 
 
