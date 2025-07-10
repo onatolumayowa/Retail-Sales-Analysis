@@ -37,7 +37,7 @@ In the initial data preparation phase, I performed the following tasks:
 EDA involved exploring the retail sales data to answer key questions such as:
 
 - Calculate the total sales for each category
-- Find the average age of customers who purchased items from the each category
+- Find the average age of customers who purchased items from each category
 - Find all transactions where the total_sale is greater than 1000
 - Find the total number of transactions made by each gender in each category
 - Calculate the average sale for each month. Find out best selling month in each year
