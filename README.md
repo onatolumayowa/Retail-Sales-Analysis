@@ -1,8 +1,8 @@
-# Customer-Sales-Analysis
+# Retail-Sales-Analysis
 
 ### Project Overview
 
-This data analysis project aims to provide insight into the sales performance of a customer sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
+This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
 
 ### Data Source
