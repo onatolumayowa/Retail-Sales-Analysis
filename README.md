@@ -4,7 +4,7 @@
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
-<img width="1187" height="668" alt="Dashboard report" src="https://github.com/user-attachments/assets/c04c37c5-f311-45cf-a523-65578731efd2" />
+!<img width="1187" height="668" alt="Dashboard report" src="https://github.com/user-attachments/assets/c04c37c5-f311-45cf-a523-65578731efd2" />
 
 
 ### Data Source
