@@ -216,7 +216,7 @@ No of customers = DISTINCTCOUNT('sql retail sales'[customer_id])
 No of orders = COUNTA('sql retail sales'[customer_id])
 ```
 
-4. Created a Dashboard 
+4. Created a Dashboard [View here](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard%20report.png)
 
 
 ### Results/Findings
