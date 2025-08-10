@@ -1,13 +1,23 @@
 # Retail-Sales-Analysis
 
+## Table of Contents
+
+[Project Overview](#project-overview)
+[Data Source](#data-source)
+[Tools](#tools)
+[Process](#process)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+[Exploratory Data Analysis](#exploratory-data-analysis)
+[Data Analysis](#data-analysis)
+[Data Visualization](#data-visualization)
+[Results and findings](#results-and-findings)
+
+
 ### Project Overview
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
-![Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
-<img width="1187" height="668" alt="Dashboard" src="https://github.com/user-attachments/assets/e1c20abd-956e-4e0d-83f4-a021b449b92a" />
-
-
+[Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
 
 ### Data Source
 
@@ -222,7 +232,7 @@ No of orders = COUNTA('sql retail sales'[customer_id])
 
 4. Created a Dashboard [Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
 
-### Results/Findings
+### Results and Findings
 
 1. Some transactions had a total sale amount greater than 1000, indicating premium purchases.
 2. The analysis identifies the top-spending customers and the most popular product categories.
