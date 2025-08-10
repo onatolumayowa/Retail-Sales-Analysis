@@ -4,6 +4,10 @@
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
+![Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
+<img width="1187" height="668" alt="Dashboard" src="https://github.com/user-attachments/assets/e1c20abd-956e-4e0d-83f4-a021b449b92a" />
+
+
 
 ### Data Source
 
