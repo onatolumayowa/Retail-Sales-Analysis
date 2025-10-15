@@ -25,7 +25,7 @@
 
 This data analysis project aims to provide insight into the sales performance of a retail sales data over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the sales performance.
 
-[Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
+![Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
 
 ### Data Source
 
@@ -238,7 +238,8 @@ No of customers = DISTINCTCOUNT('sql retail sales'[customer_id])
 No of orders = COUNTA('sql retail sales'[customer_id])
 ```
 
-4. Created a Dashboard [Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
+4. Created a Dashboard
+![Dashboard Preview](https://github.com/onatolumayowa/Retail-Sales-Analysis/blob/main/Dashboard.png)
 
 ### Results and Findings
 
